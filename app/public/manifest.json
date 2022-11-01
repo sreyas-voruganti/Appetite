@@ -1,0 +1,9 @@
+{
+  "name": "Appetite",
+  "short_name": "Appetite",
+  "theme_color": "#FEF2F2",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000000"
+}

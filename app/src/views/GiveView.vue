@@ -14,7 +14,7 @@
     </p>
     <div class="ml-5 display-flex">
       <div class="mt-3">
-        <label>Title</label>
+        <label>Title </label>
         <input
           type="text"
           placeholder="Title"
