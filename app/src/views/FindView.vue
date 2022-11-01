@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="text-2xl font-medium text-center">
-      <i class="fa-solid fa-utensils"></i> Open Donations
+      <i class="fa-solid fa-utensils"></i> Open Donations Nearby
     </h1>
     <div class="mt-3 mx-3">
       <Post v-for="post in posts" :post="post" :key="post.id" :isUser="true" />

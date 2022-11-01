@@ -36,7 +36,7 @@
           />
         </div>
         <div class="mt-3">
-          <label>Birthday</label>
+          <label>Birthday </label> <br />
           <input type="date" class="border-2 rounded-xl p-2 w-11/12" />
         </div>
         <div class="mt-3">
