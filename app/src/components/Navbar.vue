@@ -1,6 +1,10 @@
 <template>
-  <div class="border-b-4 fixed top-0 bg-white w-full">
-    <h1 class="text-center text-2xl font-bold mt-2">Appetite</h1>
+  <div class="border-b-4 fixed top-0 bg-red-50 w-full">
+    <div
+      class="text-center text-2xl font-bold flex flex-row justify-center align-center"
+    >
+      <img src="logo3.png" class="h-20" />
+    </div>
     <nav class="m-nav font-semibold text-xl" v-if="getAuthType() == 'user'">
       <router-link to="/home" tag="p">Home</router-link>
       <router-link to="/find" tag="p">Find Food</router-link>
@@ -44,12 +48,12 @@ export default {
 <style>
 .m-nav {
   display: flex;
-  height: 50px;
+  height: 30px;
   align-items: center;
   justify-content: space-evenly;
   space-between: 10px;
 }
 .router-link-active {
-  color: red;
+  color: #dc2626;
 }
 </style>

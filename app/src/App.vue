@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Navbar />
-    <div class="mt-28">
+    <div class="mt-32">
       <router-view />
     </div>
   </div>
